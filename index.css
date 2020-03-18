@@ -5,6 +5,9 @@
 body {
   margin: 0;
   /* color: #fff; */
+  overflow: hidden;
+  max-width: 800px;
+  margin: auto;
 }
 
 .form {
@@ -13,7 +16,7 @@ body {
 }
 
 .todoInput {
-  width: 100%;
+  width: 98%;
   padding: 0.5rem;
   outline: none;
 }

@@ -8,6 +8,7 @@ const todos = JSON.parse(localStorage.getItem(TODOLIST_KEY)) || []
 updateTodos(todos)
 
 // saveBtn.addEventListener('click', addTodo)
+
 todoInput.addEventListener('keyup', (e) => {
   if (e.keyCode == 13) {
     addTodo()
