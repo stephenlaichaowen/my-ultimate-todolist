@@ -22,7 +22,7 @@ function updateTodos(array) {
   todos.forEach((todo, i) => {
     str += `
       <li class="draggable" draggable="true">
-        ${todo.title}
+        ${i+1}. ${todo.title}
         <div class="control">
           <i class="fas fa-trash"></i>
           <i class="fas fa-edit"></i>
