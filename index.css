@@ -1,0 +1,57 @@
+:root {
+  --border: 1px solid;
+}
+
+body {
+  margin: 0;
+  /* color: #fff; */
+}
+
+.form {
+  border: var(--border);
+  padding: 1rem;
+}
+
+.todoInput {
+  width: 95%;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.saveBtn {
+  width: 15%;
+  padding: 0.5rem;
+}
+
+li {
+  list-style: none;
+  margin: 0.5rem;
+  display: flex;
+}
+
+.control {
+  margin-left: auto;
+}
+
+i {
+  padding: 0.3rem;
+  cursor: pointer;
+  /* border: var(--border); */
+}
+
+.container {
+  background-color: #333;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: #fff;
+  border: var(--border);  
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
