@@ -2,23 +2,33 @@
   --border: 1px solid;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   /* color: #fff; */
   overflow: hidden;
   max-width: 800px;
   margin: auto;
+  /* border: var(--border); */
 }
 
 .form {
   border: var(--border);
-  padding: 1rem;
+  padding: 1rem ;
 }
 
 .todoInput {
-  width: 98%;
+  width: 100%;  
   padding: 0.5rem;
   outline: none;
+  display: inline-block;
 }
 
 .saveBtn {
